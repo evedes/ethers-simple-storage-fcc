@@ -1,0 +1,23 @@
+{
+  "name": "ethers-simple-storage-fcc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "5.6.2",
+    "fs-extra": "^11.1.1",
+    "solc": "0.8.7-fixed"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-solidity": "^1.1.3"
+  }
+}
